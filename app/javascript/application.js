@@ -2,3 +2,5 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import '@doabit/semantic-ui-sass'
+
+$('.ui.dropdown').dropdown();
