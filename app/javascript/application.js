@@ -2,7 +2,7 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import '@doabit/semantic-ui-sass'
-
+import './channels'
 
 
 
@@ -12,4 +12,4 @@ $(document).on('turbolinks:load', function() {
   $('.message .close').on('click', function() {
       $(this).closest('.message').transition('fade');
     });
-  })import "./channels"
+  })
